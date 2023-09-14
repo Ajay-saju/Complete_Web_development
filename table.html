@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest countries</title>
+</head>
+
+<body>
+    <h1>Largest Countries in the world </h1>
+    <table>
+        <tr>
+            <th>County</th>
+            <th>Population</th>
+            <th>% of World</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>1,411,750,000 </td>
+            <td>17.5% </td>
+            <td>31 Dec 2022</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>1,392,329,000 </td>
+            <td>17.3%</td>
+            <td>1 Mar 2023 </td>
+        </tr>
+        <tr>
+            <td>US</td>
+            <td>335,403,000</td>
+            <td>4.2%</td>
+            <td>11 Sep 2023</td>
+        </tr>
+        <tr>
+            <td>Indonasia</td>
+            <td>277,749,853 </td>
+            <td>3.4%</td>
+            <td>31 Dec 2022 </td>
+        </tr>
+        <tr>
+            <td>Pakistan</td>
+            <td>241,499,431</td>
+            <td>3.0%</td>
+            <td>1 Mar 2023 </td>
+        </tr>
+    </table>
+
+    <h2>Row Span Col Span</h2>
+    <table>
+        <tbody>
+            <tr>
+                <th>County</th>
+                <th>Population</th>
+                <th>% of <br>World</th>
+                <th colspan="3">Last Updated on</th>
+            </tr>
+            <tr>
+                <th colspan="3"></th>
+                <th>Date</th>
+                <th>Month</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>1,411,750,000 </td>
+                <td>17.5% </td>
+                <td>31</td>
+                <td>Dec</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1,392,329,000 </td>
+                <td>17.3%</td>
+                <td>1</td>
+                <td>Mar</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>US</td>
+                <td>335,403,000</td>
+                <td>4.2%</td>
+                <td>11</td>
+                <td>Sep</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Indonasia</td>
+                <td>277,749,853 </td>
+                <td>3.4%</td>
+                <td>31 </td>
+                <td>Dec</td>
+                <td>2022 </td>
+            </tr>
+            <tr>
+                <td>Pakistan</td>
+                <td>241,499,431</td>
+                <td>3.0%</td>
+                <td>1</td>
+                <td>Mar</td>
+                <td>2023</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h2>Example</h2>
+    <table>
+
+        <tr>
+            <!-- <td>This cell spans two rows</td> -->
+            <td rowspan="2">Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <td>Row 3</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>This cell spans one column</td>
+            <td colspan="2">This cell spans two columns</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
