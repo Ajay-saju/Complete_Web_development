@@ -37,7 +37,60 @@
         </p> -->
         <button type="submit">Submit</button>
     </form>
+    <h2>Check Box</h2>
+    <form action="/cow">
+        <p>
+            <input type="checkbox" name="cows" id="cow" checked>
+            <label for="cow"> I agree conditions</label>
+        </p>
+        <p>
+            <input type="checkbox" name="con" id="continue">
+            <label for="continue">Continue for next</label>
+        </p>
+        <h4>Radio button</h4>
+        <p>
+            <label for="m">Medium</label>
+            <input type="radio" name="size" value="medium" id="m">
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="small">
+            <label for="l">Large</label>
+            <input type="radio" name="size" value="large" id="l">
 
+        </p>
+        <h4>Select</h4>
+        <p>
+            <label for="movement">Select a movement</label>
+            <select name="move" id="movement">
+                <option value=""></option>
+                <option value="quats">Quarts watch</option>
+                <option value="mech">Mechanical watch</option>
+                <option value="auto" selected>Automatic</option>
+            </select>
+        </p>
+        <p>
+            <label for="vol">
+                Volume
+            </label>
+            <input type="range" min="0" max="100" id="vol" name="get_vol" step="5">
+
+        </p>
+        <p>
+            <label for="num">Select count</label>
+            <input type="number" id="num" name="count" min="1" max="1000" step="10">
+        </p>
+        <p>
+            <label for="feedback">Enter your valueble feedbacks </label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"
+                placeholder="Plese give me your feedback"></textarea>
+        </p>
+        <h4>Demo validation</h4>
+        <p>
+            <label for="name">Enter valid Name</label>
+            <input type="text" id="name" name="username" minlength="5" maxlength="10" required>
+        </p>
+        <button>OK</button>
+    </form>
 </body>
 
 </html>
