@@ -1,0 +1,25 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+label {
+    columns: rgb(73, 101, 73);
+}
+
+div {
+    background-color: rgb(16, 239, 239);
+}
+
+buttons {
+    color: red;
+    background-color: pink;
+}
