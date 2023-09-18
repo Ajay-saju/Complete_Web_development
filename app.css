@@ -1,8 +1,9 @@
-p {
+/* p {
     color: red;
-}
+} */
 
-h1 {
+h1,
+h2 {
     color: purple;
     text-align: center;
     letter-spacing: 2px;
@@ -15,11 +16,63 @@ label {
     columns: rgb(73, 101, 73);
 }
 
-div {
-    background-color: rgb(16, 239, 239);
+.tag {
+    color: black;
+    /* background-color: antiquewhite; */
 }
 
-buttons {
+.custom-label {
+    color: blue;
+    font-weight: bold;
+}
+
+
+button {
     color: red;
     background-color: pink;
+}
+
+minimum {
+    background-color: black;
+}
+
+#sample {
+    color: blue;
+}
+
+#sim {
+    color: purple;
+}
+
+#sam {
+    color: greenyellow;
+}
+
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* Style the label */
+.custom-input label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Style the input field */
+.custom-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Add focus styles */
+.custom-input input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
