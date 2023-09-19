@@ -76,3 +76,54 @@ minimum {
     border-color: #007BFF;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+li {
+    color: #555;
+}
+
+li+li+li {
+    margin-top: 10px;
+    /* Add margin to separate adjacent list items */
+    font-weight: bold;
+    /* Make the text bold for adjacent list items */
+    color: #ad1463;
+    /* Change text color for adjacent list items */
+}
+
+.container>p {
+    color: blue;
+}
+
+.container>span {
+    font-weight: bold;
+    color: red;
+}
+
+li[data-category="fruits"] {
+    color: green;
+    font-weight: bold;
+}
+
+/* Style elements with a "data-category" attribute equal to "vegetables" */
+li[data-category="vegetables"] {
+    color: orange;
+    font-style: italic;
+}
+
+/* Style elements with a "data-category" attribute */
+/* You can apply common styles to all elements with this attribute */
+li[data-category] {
+    text-decoration: underline;
+}
+
+/* Style elements without a "data-category" attribute */
+/* This selects the last <li> element in the example */
+li:not([data-category]) {
+    color: gray;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: red;
+    font-weight: bold;
+}
