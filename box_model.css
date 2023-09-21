@@ -1,0 +1,33 @@
+h1 {
+    color: blueviolet;
+}
+
+#one {
+    height: 100px;
+    width: 350px;
+    background-color: #2596be;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+#two {
+    height: 100px;
+    width: 350px;
+    background-color: #eab676;
+    border-radius: 20px;
+    border-color: black;
+    border-style: inset;
+    padding: 20px;
+}
+
+#three {
+    height: 100px;
+    width: 350px;
+    background-color: #873e23;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
