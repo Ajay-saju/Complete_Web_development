@@ -1,5 +1,6 @@
 h1 {
     color: blueviolet;
+    font-size: 100%;
 }
 
 #one {
@@ -30,4 +31,32 @@ h1 {
     border-color: black;
     border-style: solid;
     padding: 20px;
+}
+
+.container {
+    display: flex;
+    /* Use flexbox to align the divs horizontally */
+}
+
+/* Define styles for the div boxes */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    /* Background color (you can change this) */
+    margin-right: 10px;
+    /* Add some margin to separate the divs */
+}
+
+#persentage {
+    width: 500px;
+    height: 500px;
+    border: 1px;
+    background-color: bisque;
+}
+
+#get {
+    width: 50%;
+    height: 50%;
+    background-color: yellowgreen;
 }
